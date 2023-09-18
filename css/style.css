@@ -11,3 +11,37 @@
 .banner-text {
     font-size: 1.5rem;
 }
+
+.courses-header {
+    padding: 0 26%;
+}
+
+.see-more-btn:hover {
+    color: #289BDE;
+    background-color: #fff;
+    border: 1px solid #289BDE;
+    transition: color .5s ease-in-out,
+        background-color .5s ease-in-out;
+}
+
+.readmore-btn:hover {
+    transition: background-color .4s ease-in-out;
+}
+
+.reg-btn:hover {
+    border: 3px dashed #51a4fccf;
+}
+
+.success-student a {
+    text-decoration: none;
+    color: #4A4A4A;
+    transition: color .3s ease-in-out;
+}
+
+/* -----------------------------
+      Footer Area Customize
+--------------------------------*/
+footer {
+    background-color: #161616;
+    color: #fff;
+}
