@@ -1,3 +1,10 @@
+/* -----------------------------
+            Navbar 
+--------------------------------*/
+header nav .btn:hover {
+    color: #fafafa;
+}
+
 .carousel-item-img {
     height: 35rem;
     Filter: brightness(40%);
