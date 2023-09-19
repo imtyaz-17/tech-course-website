@@ -1,8 +1,20 @@
 /* -----------------------------
             Navbar 
 --------------------------------*/
-header nav .btn:hover {
-    color: #fafafa;
+.navbar-nav .nav-item .nav-link {
+    color: #161616;
+    font-size: 1.125rem;
+}
+
+.navbar-brand:hover {
+    color: #055082e0;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #000000;
+    font-weight: 500;
+    border-bottom: 2px solid #000000;
+    transition: border-bottom 0.3s ease-in-out;
 }
 
 .carousel-item-img {
@@ -83,4 +95,17 @@ header nav .btn:hover {
 footer {
     background-color: #161616;
     color: #fff;
+}
+
+.social-icon .fa-facebook:hover,
+.social-icon .fa-twitter:hover,
+.social-icon .fa-linkedin:hover {
+    color: #1C93E4;
+    transition: color .4s ease-in-out;
+}
+
+.social-icon .fa-tiktok:hover {
+    color: #111111;
+    filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4);
+    transition: color .4s ease-in-out;
 }
