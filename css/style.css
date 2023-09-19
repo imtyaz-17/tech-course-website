@@ -38,8 +38,40 @@
     transition: color .3s ease-in-out;
 }
 
+.fa-solid,
+.fa-regular {
+    color: #FFC014;
+}
+
+.student-info a {
+    text-decoration: none;
+    color: #4A4A4A;
+    transition: color .3s ease-in-out;
+}
+
+.feedback-prev {
+    position: absolute;
+    left: -7%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.feedback-next {
+    position: absolute;
+    right: -7.5%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
 /* -----------------------------
-      Footer Area Customize
+  Frequently Questions  
+--------------------------------*/
+#acord-btn {
+    background-color: #e7f1ff;
+}
+
+/* -----------------------------
+      Footer Area 
 --------------------------------*/
 footer {
     background-color: #161616;
